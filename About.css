@@ -1,0 +1,196 @@
+.About-container{
+  width: 60%;
+  margin: 0 auto;
+}
+nav li a{
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+}
+
+/* about style */
+.shape-image {
+    width: 45rem;
+    height: auto;
+    position: absolute;
+    top: -5rem;  
+    right: 0;   
+    z-index: 1; 
+}
+
+.about-me{
+
+    margin-top: 5rem;
+}
+.about-me p{
+    width: 50%;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+/*education*/
+.Education{
+
+    margin-top: 3rem;
+}
+
+.bullet-education{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+.bullet-education::before{
+    content: "";
+    position: absolute;
+left: 20%;
+
+
+    transform: translateY(-10%);
+    width: 2rem; 
+    height: 2rem;
+    background-color:  #11071F; 
+    border-radius: 50%;
+    border: 0.8rem solid rgb(255, 255, 255); 
+    z-index: 1;
+}
+.Education::after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 21.5%; 
+    width: 2px; 
+    height: 18rem; 
+    background-color: rgb(255, 255, 255); 
+    z-index: 0;
+}
+.bullet-education h4{
+    color:#763CAC;
+}
+
+/*Skills*/
+.Skills {
+   margin-top: 3rem;
+
+}
+.skills-section {
+    display: flex;
+flex-direction: row;
+    gap: 4rem;
+    margin-top: 2rem;
+ 
+  }
+  
+  .skills-column {
+ width: 60%;
+ gap: 1rem;
+ display: flex;
+ flex-direction: column;
+  }
+  
+  .skill-item {
+    margin-bottom: 15px;
+  }
+  
+  .skill-name {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    display: block;
+  
+
+  }
+  .skill-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  
+  .skill-progress {
+    height: 1rem;
+    border-radius: 15px;
+    background-color: #e0e0e0;
+    
+  }
+  .progress-bar-Figma {
+    height: 100%;
+    border-radius: 15px;
+    background-color: #dc3545; 
+    width: 84%;
+
+  }
+  .progress-bar-Reactjs {
+    height: 100%;
+    border-radius: 15px;
+    background-color:#FBFF00; 
+    width: 80%;
+
+  }
+  .progress-bar-Html{
+    height: 100%;
+    border-radius: 15px;
+    background-color:#763CAC; 
+    width: 98%;
+  }
+  .progress-bar-Css{
+    height: 100%;
+    border-radius: 15px;
+    background-color:#FF0207; 
+    width: 89%;
+  }
+  .progress-bar-Javascript{
+    height: 100%;
+    border-radius: 15px;
+    background-color:#FF9501; 
+    width: 75%;
+  }
+  .progress-bar-Figma{
+    height: 100%;
+    border-radius: 15px;
+    background-color:#0000FF; 
+    width: 85%;
+  }
+
+  .progress-bar-expressjs{
+    height: 100%;
+    border-radius: 15px;
+    background-color:#FF0DC2; 
+    width: 90%;
+  }
+  .progress-bar-wordpress{
+    height: 100%;
+    border-radius: 15px;
+    background-color:#42DE3D; 
+    width: 90%;
+  }
+  @media (max-width: 1402px) {
+
+  .skills-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-item {
+    width: 100%;
+  }
+  .shape-image{
+    display: none;
+  }
+  .Education::after {
+    content: none;
+  }
+  .about-me p{
+    width: 100%;
+  }
+  .About-container{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .skills-column {
+    width: 80%;
+  }
+  .bullet-education::before{
+    content: none;
+  }
+  .bullet-education{
+    margin-left: 0;
+  }
+  }

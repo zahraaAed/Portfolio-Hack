@@ -1,0 +1,360 @@
+.home-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+.My-info{
+    
+    margin: 8rem auto;
+    display: flex;
+
+}
+.my-image{
+  width: 30rem;
+  height: auto; 
+ 
+  position: absolute; 
+}
+.inner-img-gradient {
+    width: 35rem;
+    height: 25rem;
+    z-index: 3;
+    border-radius: 50%;
+    background: url('/assets/Gradient.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+  }
+.info{
+    margin-left: 8rem;
+}
+.arrow{
+    position: relative;
+    right: 8rem;
+}
+.intro{
+    position: relative;
+    top: -6rem;
+}
+.my-name{
+    color: blueviolet;
+}
+.performance{
+    color: blueviolet;
+}
+.info h1{
+    letter-spacing: 0.3rem;
+    font-size: 3rem;
+}
+.performance {
+    color: blueviolet;
+    display: inline-block;
+    width: 21rem;
+    height: 5rem; 
+   border: 1px solid wheat;
+    border-radius: 50%; 
+    text-align: center;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    padding: 0;
+    position: relative; 
+    margin-bottom: 1rem;
+   
+  }
+  #points{
+    padding-left: 2rem;
+  }
+  /*about*/
+  .About-info{
+  
+
+   line-height: auto;
+  }
+  .About-info p{
+    margin-top: 3rem;
+  }
+  /*experience*/
+  .experience {
+ 
+    background: linear-gradient(
+      to left, 
+      #130428 34%,
+      #251043 57%,
+      #38126d 85%,
+      #261045 100%,
+      #763CAC 100%
+    );
+    color: white; 
+    padding: 1rem; 
+   display: flex;
+   gap: 5rem;
+   align-items: center;
+    border-radius: 8px; 
+    width: 35rem;
+    height: 16rem;
+    border-top: 3px solid #763CAC;
+  
+ 
+  }
+  .experience-info h3{
+    padding-bottom: 2rem;
+    font-weight: bold; 
+  }
+  
+  .nb-experience {
+    font-size: 5rem; 
+    font-weight: bold; 
+    color: transparent;
+    -webkit-text-stroke: 3px #763CAC;
+    margin-left: 3rem;
+   
+  }
+  .work-experience{
+  
+   margin-top: 3rem;
+    background: url('/assets/Gradient.png') no-repeat center center;
+    background-size: 50%;
+    width: 60%;
+  }
+  .experience-container{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    
+  }
+  .experiences{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  /*projects*/
+  .projects{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  
+    
+  }
+  .projects h2{
+    margin-top: 3rem;
+  }
+ .iconify{
+  font-size: 2rem;
+  color:#ffffff;
+ }
+ .iconify :hover{
+  color: #763CAC;
+ }
+ .project {
+  display: flex;
+  gap: 2rem; 
+}
+
+.project-content {
+  position: relative; /*this is considered reference point for positioning*/
+  display: flex;
+}
+.img-project {
+  position: relative;
+ 
+ 
+}
+
+.img-project img {
+  width: 568px;
+  height: 354px;
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+  border-top: 30px solid #2B0B3A;
+  border-left: 30px solid #2B0B3A;
+  top: 10%;
+ 
+}
+
+.project-title {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+
+.title-row {
+  display: flex;
+  align-items: center; 
+  gap: 1rem; 
+
+  
+}
+
+.project-title h2, .project-title p {
+  margin: 1rem 0;
+
+}
+.project1{
+width: 100%;
+  background: linear-gradient(
+    to left, 
+    #bfb0d6 2%,
+    #251043 27%,
+
+  
+    #230e43 100%
+  );
+background-color: #2B215A;
+padding: 1rem;
+border-radius: 15px;
+left: 10%;
+position: relative;
+z-index: 2;
+}
+.project2{
+
+  background: linear-gradient(
+    to right, 
+    #bfb0d6 2%,
+    #251043 27%,
+
+  
+    #230e43 100%
+  );
+background-color: #2B215A;
+padding: 1rem;
+border-radius: 15px;
+right: 10%;
+position: relative;
+z-index: 2;
+}
+.project-title2 {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  align-items: flex-end; 
+  text-align: left;
+}
+.project-title2 h2, .project-title2 p {
+  margin: 1rem 0;
+
+}
+.project-title2 h4{
+  color: #763CAC;
+}
+.project-title h4{
+  color: #763CAC;
+}
+/*footer*/
+
+.social-icons {
+  display: flex;
+  gap: 20px; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  
+}
+
+.social-icons a {
+  text-decoration: none;
+ 
+  font-size: 2rem; 
+  transition: color 0.3s ease; 
+}
+
+.social-icons a:hover {
+  color: #763CAC; 
+}
+@media (max-width: 1402px) {
+.home-container{
+  width: 90%;
+  margin: 0 auto;
+}
+.my-image{
+  width: 25rem;
+}
+
+.My-info{
+  display: flex;
+  flex-direction: column;
+}
+.info{
+  margin: 0;
+}
+.arrow{display: none;
+}
+.intro{
+  position:static;
+margin-top: 50px;
+}
+.info h1{
+  font-size: 2rem;
+}
+.experience-container{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+
+}
+.experience{
+  width: 100%;
+}
+.work-experience{
+  width: 100%;
+}
+}
+@media (max-width: 610px) {
+  
+  .experience{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-left: 2rem;
+  }
+  .img-project img {
+    width: 268px;
+    height: 154px;
+    }
+}
+@media (max-width: 1180px) {
+  .inner-img-gradient {
+    width: 20rem;
+    height: 20rem;
+  
+  }
+  .project-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .project1{
+
+        left: 0;  
+        position: static; 
+      }
+ 
+    .project2{
+      left: 0; 
+      position: static; 
+    }
+    .title-row{
+margin-top: 80px;
+    }
+  .project-title2{
+    text-align: left;
+    align-items: flex-start;
+  }
+  .projects{
+    width: 100%;
+  }
+  .project-title {
+    display: flex;
+    flex-direction: column; 
+    
+  }
+  .nb-experience{
+    margin: 0;
+  
+  }
+
+}

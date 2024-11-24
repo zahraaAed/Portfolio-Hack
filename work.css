@@ -1,0 +1,154 @@
+.work-container{
+  width: 60%;
+  margin: 0 auto;
+  }
+
+
+/*work headline content*/
+.headline-content {
+
+  margin-top: 4rem;
+}
+
+.headline-content h1 {
+  font-size: 4.5rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+/*Agency details*/
+.inner-gradient {
+ width: 70%; 
+  max-width: 700px;
+
+  height: 40vh; 
+  max-height: 300px; 
+  min-width: 300px;
+  min-height: 200px;
+  z-index: 3;
+  border-radius: 50%;
+  background: url('/assets/Gradient.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+}
+
+.gradient-image {
+  width: 13rem;
+  height: auto; 
+ 
+  position: absolute; 
+ 
+}
+
+
+.our-agency {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.agency-content {
+  font-size: 1.5rem;
+}
+
+/*social links*/
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 0.5rem;
+
+}
+
+.social-links a {
+
+  color: #763CAC;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.iconify {
+  font-size: 2rem;
+  /* Icon size */
+}
+
+/*our work*/
+.our-work {
+
+  margin-top: 5rem;
+}
+
+.our-services {
+ 
+  margin-top: 1rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.services{
+  display: flex;
+  flex-direction: row;
+  gap:2rem;
+  margin-bottom: 3rem;
+}
+.service{
+  background: linear-gradient(
+    to left, 
+    #130428 34%,
+    #251043 57%,
+    #38126d 85%,
+    #261045 100%,
+    #763CAC 100%
+  );
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 50%;
+
+}
+/* Responsive Design */
+@media (max-width: 1000px) {
+
+
+  .headline-content h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+ 
+    
+  }
+  br{
+    display: none;
+    
+  }
+
+.our-agency{
+display: flex;
+flex-direction: column;
+}
+.inner-gradient {
+  width: 20rem;
+  height: 20rem;
+}
+.services{
+  display: flex;
+  flex-direction: column;
+}
+.service{
+  width: 100%;
+}
+.work-container{
+width: 80%;
+margin: 0 auto ;
+}
+.headline-content {
+  margin-left: 10px !important;
+}
+}
